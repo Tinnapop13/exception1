@@ -1,0 +1,30 @@
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
+ */
+package exception1;
+
+/**
+ *
+ * @author tinnapop
+ */
+public class LAB1 {
+    public static void main(String[] args) {
+        System.out.println(1/0);
+        
+        String s = "abc";
+        System.out.println(s.charAt(3));
+        
+        Object o = null;
+        System.out.println(o.toString());
+        
+        int[] list = new int[5];
+        System.out.println(list[5]);
+        
+        o = new Object();
+        String d = (String) o ;
+        
+        System.out.println(1.0/0);
+        
+    }
+}
